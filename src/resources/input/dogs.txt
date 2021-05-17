@@ -1,0 +1,10 @@
+beagle
+boxer
+eskimo
+chow
+husky
+kelpie
+maltese
+mix
+pomeranian
+nanana
