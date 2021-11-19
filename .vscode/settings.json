@@ -1,0 +1,11 @@
+{
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.analysis.extraPaths": [
+    "../my-api-testing/lib/python3.6/site-packages"
+  ],
+  // "python.linting.pylintArgs": [
+  //   "--errors-only"
+  // ],
+  "editor.tabSize": 2
+}

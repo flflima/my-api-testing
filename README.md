@@ -31,7 +31,7 @@ pip install -r requirements.txt
 Executando:
 
 ```python
-python get_dogs_breeds.py
+python src/get_dogs_breeds.py
 ```
 
 API utilizada:

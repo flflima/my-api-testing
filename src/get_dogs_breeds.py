@@ -41,11 +41,11 @@ def execute(breeds):
 
         response = requests.get(api_url, headers=headers)
 
-        if (response.status_code < 300):
+        if response.status_code < 300:
             logging.debug(
                 f'Success getting dog breed {breed} - status: {response.status_code}')
 
-            with open(f'{FILES_PATH}/output/{breed}.json', 'w') as outfile:
+            with open(f'{FILES_PATH}/output/{breed}.json', 'w', encoding='UTF-8') as outfile:
                 json.dump(
                     response.json(),
                     outfile,
