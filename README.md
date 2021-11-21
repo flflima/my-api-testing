@@ -7,25 +7,25 @@ Script em Python para consultar uma API e salvar o corpo da resposta.
 Instalando ambiente de desenvolvimento `venv`:
 
 ```console
-sudo apt-get install python3-venv
+pip install pipenv
 ```
 
-Criando ambiente:
+Criando e ativando o ambiente:
 
 ```console
-python3 -m venv .
+pipenv shell
 ```
 
-Ativando o ambiente:
+Trvando versionamento:
 
 ```console
-source bin/activate
+pipenv lock
 ```
 
 Instalando dependências:
 
 ```python
-pip install -r requirements.txt
+pipenv install
 ```
 
 Executando:
